@@ -1,0 +1,16 @@
+# Payment configuration
+default_gateway: stripe
+fallback_gateway: paypal
+store_credit_enabled: true
+webhook_notifications: true
+
+gateways:
+  stripe:
+    enabled: true
+    mode: production
+  paypal:
+    enabled: true
+    mode: sandbox  # NOTE: still in sandbox mode
+  store_credit:
+    enabled: true
+    max_per_order: 100.00

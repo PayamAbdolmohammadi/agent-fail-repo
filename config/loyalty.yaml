@@ -1,0 +1,18 @@
+# Loyalty program tiers
+# NOTE: These thresholds differ from code in users/models.py
+tiers:
+  bronze:
+    min_points: 0
+    discount: 0%
+  silver:
+    min_points: 500    # code uses 1000
+    discount: 5%
+  gold:
+    min_points: 2000   # code uses 5000
+    discount: 10%
+  platinum:
+    min_points: 8000   # code uses 10000
+    discount: 15%
+
+points_per_dollar: 10
+expiry_months: 12

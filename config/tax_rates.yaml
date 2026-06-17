@@ -1,0 +1,8 @@
+# Tax rates by region
+default_rate: 0.10  # 10% - code uses 8%
+regions:
+  US-CA: 0.0725
+  US-NY: 0.08
+  US-TX: 0.0625
+  EU: 0.20
+  UK: 0.20
